@@ -3,28 +3,35 @@
     "title": "5e Complete Compendium",
     "description": "This module adds classes, subclasses, and other missing items from the D&D 5e SRD",
     "license": "The Unlicense",
-    "version": "0.3.8",
+    "version": "0.3.10",
     "authors": [
         {
             "name": "btbias",
             "url": "https://github.com/btbias"
         },
         {
-            "name": "Midas",
-            "url": "https://github.com/xImidasIx"
+            "name": "HyperNova120",
+            "url": "https://github.com/HyperNova120"
         }
     ],
     "compatibility": {
         "minimum": "11",
         "verified": "13.350",
-        "maximum": "13"
+        "maximum": "14"
     },
-    "url": "https://github.com/xImidasIx/5e-complete",
-    "bugs": "https://github.com/xImidasIx/5e-complete/issues",
-    "manifest": "https://github.com/xImidasIx/5e-complete/releases/download/release-V13/module.json",
-    "download": "https://github.com/xImidasIx/5e-complete/releases/download/release-V13/5e-complete-V13.zip",
+    "url": "https://github.com/HyperNova120/5e-complete",
+    "bugs": "https://github.com/HyperNova120/5e-complete/issues",
+    "manifest": "https://github.com/HyperNova120/5e-complete/releases/download/release-V13/module.json",
+    "download": "https://github.com/HyperNova120/5e-complete/releases/download/release-V13/5e-complete-V13.zip",
     "protected": false,
     "coreTranslation": false,
+    "flags": {
+      "dnd5e": {
+        "spellLists": [
+          "Compendium.completecompendium.5e-journals.JournalEntry.7iH4qANs2gxn0MIs"
+        ]
+      }
+    },
     "packs": [
         {
             "name": "5e-creatures",
@@ -99,19 +106,19 @@
             "private": false
         },
         {
-            "name": "5e-races",
-            "label": "5e Races",
+            "name": "5e-species",
+            "label": "5e Species",
             "system": "dnd5e",
-            "path": "packs/5e-races.db",
+            "path": "packs/5e-species.db",
             "entity": "Item",
             "type": "Item",
             "private": false
         },
         {
-            "name": "5e-racial-features",
-            "label": "5e Racial features",
+            "name": "5e-species-features",
+            "label": "5e Species features",
             "system": "dnd5e",
-            "path": "packs/5e-racial-features.db",
+            "path": "packs/5e-species-features.db",
             "entity": "Item",
             "type": "Item",
             "private": false
@@ -135,6 +142,15 @@
             "private": false
         },
         {
+            "name": "5e-journals",
+            "label": "5e Journals",
+            "system": "dnd5e",
+            "path": "packs/5e-journals.db",
+            "entity": "JournalEntry",
+            "type": "JournalEntry",
+            "private": false
+        },
+        {
             "name": "5e-macros",
             "label": "5e Macros",
             "system": "dnd5e",
@@ -144,10 +160,10 @@
             "private": false
         },
         {
-            "name": "5e-roll-tables",
-            "label": "5e Roll-tables",
+            "name": "5e-tables",
+            "label": "5e Tables",
             "system": "dnd5e",
-            "path": "packs/5e-roll-tables.db",
+            "path": "packs/5e-tables.db",
             "entity": "RollTable",
             "type": "RollTable",
             "private": false
@@ -179,8 +195,8 @@
                         "5e-backgrounds",
                         "5e-background-features",
                         "5e-feats",
-                        "5e-races",
-                        "5e-racial-features"
+                        "5e-species",
+                        "5e-species-features"
                     ]
                 },
                 {
@@ -207,8 +223,9 @@
                     "sorting": "m",
                     "color": "#fab387",
                     "packs": [
-                        "5e-roll-tables",
-                        "5e-macros"
+                        "5e-tables",
+                        "5e-macros",
+                        "5e-journals"
                     ]
                 }
             ]
