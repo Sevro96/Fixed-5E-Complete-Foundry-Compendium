@@ -3,7 +3,7 @@
   "title": "5e Complete Compendium",
   "description": "This module adds classes, subclasses, and other missing items from the D&D 5e SRD",
   "license": "The Unlicense",
-  "version": "0.3.13",
+  "version": "0.3.14",
   "authors": [
     {
       "name": "btbias",
@@ -13,7 +13,7 @@
       "name": "HyperNova120",
       "url": "https://github.com/HyperNova120"
     },
-	    {
+    {
       "name": "Sevro96",
       "url": "https://github.com/Sevro96"
     }
@@ -26,7 +26,7 @@
   "url": "https://github.com/Sevro96/Fixed-5E-Complete-Foundry-Compendium",
   "bugs": "https://github.com/Sevro96/Fixed-5E-Complete-Foundry-Compendium/issues",
   "manifest": "https://raw.githubusercontent.com/Sevro96/Fixed-5E-Complete-Foundry-Compendium/main/module.json",
-  "download": "https://github.com/Sevro96/Fixed-5E-Complete-Foundry-Compendium/releases/download/v0.3.13/completecompendium-v0.3.13.zip",
+  "download": "https://github.com/Sevro96/Fixed-5E-Complete-Foundry-Compendium/releases/download/v0.3.14/completecompendium-v0.3.14.zip",
   "protected": false,
   "coreTranslation": false,
   "flags": {
